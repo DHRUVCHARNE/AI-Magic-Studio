@@ -23,7 +23,7 @@ with cent_co:
 
 if format_type == "Text Processor":
         st.title('Text Assisstant')
-        API_KEY ="AIzaSyC4uKuTHWkFxFwpNkP6lmhsc1C7yQjreK8"
+        API_KEY =#
         try:
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-pro')
